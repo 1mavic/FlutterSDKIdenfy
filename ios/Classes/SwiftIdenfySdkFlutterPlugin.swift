@@ -19,20 +19,21 @@ public class SwiftIdenfySdkFlutterPlugin: NSObject, FlutterPlugin {
 
 
                 //Changing common iDenfy colors
-                IdenfyCommonColors.idenfyMainColorV2 = UIColor.green
-                IdenfyCommonColors.idenfyMainDarkerColorV2 = UIColor.green
-                IdenfyCommonColors.idenfySecondColorV2 = UIColor.black
-                IdenfyCommonColors.idenfyBackgroundColorV2 = UIColor.white
+                // IdenfyCommonColors.idenfyMainColorV2 = UIColor.green
+                // IdenfyCommonColors.idenfyMainDarkerColorV2 = UIColor.green
+                // IdenfyCommonColors.idenfySecondColorV2 = UIColor.black
+                // IdenfyCommonColors.idenfyBackgroundColorV2 = UIColor.white
 
-                //Customizing Tooblar
-                IdenfyToolbarUISettingsV2.idenfyDefaultToolbarLogoIconTintColor = UIColor.blue
-                IdenfyToolbarUISettingsV2.idenfyDefaultToolbarBackIconTintColor = UIColor.blue
-                IdenfyToolbarUISettingsV2.idenfyLanguageSelectionToolbarLanguageSelectionIconTintColor = UIColor.yellow
-                IdenfyToolbarUISettingsV2.idenfyLanguageSelectionToolbarCloseIconTintColor = UIColor.blue
-                IdenfyToolbarUISettingsV2.idenfyCameraPreviewSessionToolbarBackIconTintColor = UIColor.white
+                // //Customizing Tooblar
+                // IdenfyToolbarUISettingsV2.idenfyDefaultToolbarLogoIconTintColor = UIColor.blue
+                // IdenfyToolbarUISettingsV2.idenfyDefaultToolbarBackIconTintColor = UIColor.blue
+                // IdenfyToolbarUISettingsV2.idenfyLanguageSelectionToolbarLanguageSelectionIconTintColor = UIColor.yellow
+                // IdenfyToolbarUISettingsV2.idenfyLanguageSelectionToolbarCloseIconTintColor = UIColor.blue
+                // IdenfyToolbarUISettingsV2.idenfyCameraPreviewSessionToolbarBackIconTintColor = UIColor.white
 
                 //Configuring IdenfyUISettings
                 let idenfyUISettingsV2 = IdenfyUIBuilderV2()
+                    .withIdenfyToolbarHidden()
                     .build()
 
                 let idenfySettingsV2 = IdenfyBuilderV2()
