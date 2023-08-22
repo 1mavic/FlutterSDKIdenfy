@@ -33,7 +33,6 @@ public class SwiftIdenfySdkFlutterPlugin: NSObject, FlutterPlugin {
 
                 //Configuring IdenfyUISettings
                 let idenfyUISettingsV2 = IdenfyUIBuilderV2()
-                    .withIdenfyToolbarHidden()
                     .build()
 
                 let idenfySettingsV2 = IdenfyBuilderV2()
